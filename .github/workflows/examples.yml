@@ -2,10 +2,6 @@ name: GPU Test
 permissions:
   contents: read
 on:
-  schedule:
-    # Every day at 3 AM UTC+8
-    - cron: '0 19 * * *'
-
   workflow_dispatch:
 
 jobs:

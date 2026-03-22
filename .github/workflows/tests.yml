@@ -4,15 +4,7 @@ permissions:
   contents: read
 
 on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
   workflow_dispatch:
-
-  schedule:
-    # Every day at noon and midnight
-    - cron: '0 0,12 * * *'
 
 jobs:
 
