@@ -1,4 +1,5 @@
 # Agentlightning specific files
+README.md
 verl_old
 meta-llama/**
 debug/*.png
